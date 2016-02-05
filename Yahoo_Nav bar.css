@@ -1,0 +1,58 @@
+body, h1, h2, h3, nav, header, a, p, section, aside, article, li, ul, ol, footer, img, button, div, #container{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue",Helvetica,Arial;
+	font-size: 13px;
+	line-height: 16.25px;
+	font-weight: 400;
+	color: black;
+}
+.clear{line-height:0px; clear: both;}
+
+
+/*Change to borderbox */
+body{ box-sizing: border-box; -moz-box-sizing: border-box; width: 1278px; height: 100%; background-color: #FAFAFC;}
+
+#container{ box-sizing: border-box;  -moz-box-sizing: border-box; width: 1278px; height: 100%;}
+div, header, nav, section, article{ box-sizing: border-box;  -moz-box-sizing: border-box;}
+
+
+/* Top navigation bar */
+#topNavs{position: fixed; box-sizing: borderbox; width: 1278px;}
+
+#topNavBar{background-color: #2d1152; height: 22px; padding: 2px;}
+#topNavBar li{display: inline-block; text-decoration: none;}
+#topNavBar a span{ color: #FFF; text-decoration: none; padding: 0px 12px 2px 12px;}
+#topNavBar a:hover{ color: #FFF; text-decoration: underline; text-decoration-style: solid;}
+#topLeftLinks{ float: left; width: 95%;}
+#topRightLinks{ display: inline-block; width: 5%;}
+#topNavBar a img{ width: 15px; height: 15px; padding-left: 10px;}
+
+/* Nav bottom border */
+.shadow {
+    -webkit-box-shadow: 0px 2px 9px 0px #500095;
+    -moz-box-shadow:    0px 2px 9px 0px #500095;
+    
+      box-shadow: 0px 2px 9px 0px #500095;
+}
+
+/* Page header: search area with user links */
+#mainHeader{ height: 86px; box-sizing: border-box;  -moz-box-sizing: border-box; padding: 23px 70px; background-color: #FAFAFC; width: 1278px;}
+
+#mainHeaderDiv{ height: 36px; width: 1138px;}
+#logoDiv{width: 120px; float: left; margin-right: 50px;}
+#logoImg{height: 40px; width: 120px;}
+#searchBar{width: 605px; display: inline-block;}
+#srchBox{box-sizing: border-box;  -moz-box-sizing: border-box; height: 36px; width: 450px; border-color: #3372E0; border-radius: 2px; border-width: 1px;} 
+#submitButton{width: 110px; color: white; border-color: #5F5F5F; background-color: #3372E0; border-radius: 4px; font-size: 15px; height: 35px; }
+#myYahooDiv{width: 220px; display: inline-block; height: 36px; margin-left: 130px;}
+#myYahooDiv ul{list-style-type: none;}
+#myYahooDiv li{ display: inline-block; text-decoration: none;}
+#myYahooDiv img{ width: 20px; height: 15px; padding: 5px 2px 0px 5px;}
+#myYahooDiv a{ color: #1E2683; text-decoration: none;}
+#myYahooDiv a:hover{ text-decoration: underline;}
+#myYahooDiv a span{ padding: 2px; vertical-align: bottom;}
+
+
+/* Page Content */
+#mainContentArea{position: absolute; box-sizing: border-box;  -moz-box-sizing: border-box; top: 110px; width: 1278px; height: 2000px; background-color: #FAFAFC; z-index: -1; padding: 0px 70px;}

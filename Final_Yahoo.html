@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<head>
+	<title>Yahoo</title>
+	<link type= "text/css" href= "Final_Yahoo.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<html>
+	<body>
+		<div id= "container">
+			<div id= "topNavs">
+				<nav id= "topNavBar">
+					<div id= "topLeftLinks">
+						<ul>
+							<li><a href="#"><img src= "images/home.gif" alt= "home icon" /></a></li>
+							<li><a href="#"><span>Mail</span></a></li>
+							<li><a href="#"><span>Answers</span></a></li>
+							<li><a href="#"><span>Groups</span></a></li>
+							<li><a href="#"><span>Flickr</span></a></li>
+							<li><a href="#"><span>Tumblr</span></a></li>
+							<li><a href="#"><span>Games</span></a></li>
+							<li><a href="#"><span>Live</span></a></li>
+							<li><a href="#"><span>Screen</span></a></li>
+							<li><a href="#"><span>Mobile</span></a></li>
+							<li><a href="#"><span>More</span></li>
+						</ul>
+					</div>
+					
+					<div id= "topRightLinks">
+						<img src= "images/France.png" alt= "Country flag" />
+					</div>
+				</nav>
+			
+			<header id= "mainHeader">
+				<div id= "mainHeaderDiv">
+					<div id= "logoDiv"><img id= "logoImg" src= "images/Yahoo_Logo.png" alt= "Yahoo Logo" /></div>
+					<div id= "searchBar">
+						<form>
+							<input id= "srchBox" type= "text" name= "searchTextBox" />
+							<button id= "submitButton" type= "submit" name= "searchButton">Search Web</button>		
+						</form>
+					</div>
+					<div id= "myYahooDiv">
+						<ul>
+							<li><a href= "#"><span>My Yahoo</span></a></li>
+							<li><a href= "#"><img id= "myImg" src= "images/India.png" alt= "pic" /><span>Hi, ruchika</span></a></li>
+							<li><a href= "#"><img id= "mailImg" src= "images/mail.jpg" alt= "Mail icon" /><span>Mail</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</header>
+		</div>
+		<script>
+			$(document).ready(function(){
+				var top = $('#topNavs').offset().top;
+				$(window).scroll(function (event) {
+    			var y = $(this).scrollTop(); 
+    			if (y >= 60)
+    				 {  $('#topNavs').addClass('shadow'); }
+    			else
+    				 { $('#topNavs').removeClass('shadow'); }
+  				});
+			});
+		</script>
+		
+			<div id= "mainContentArea">
+				<nav id= "leftNav">
+					<ul>
+						<li><a href= ""><img src= "images/mail.jpg" alt= "Mail Icon" /><span>Mail</span></a></li>
+						<li><a href= "#"><img src= "images/Giant.gif" alt= "News Icon" /><span>News</span></a></li>
+						<li><a href= "#"><img src= "images/sports.png" alt= "Sports Icon" /><span>Sports</span></a></li>
+						<li><a href= "#"><img src= "images/Jupiter.gif" alt= "Finance Icon" /><span>Finance</span></a></li>
+						<li><a href= "#"><img src= "images/Mars.gif" alt= "Weather Icon" /><span>Weather</span></a></li>
+						<li><a href= "#"><img src= "images/Mercury.gif" alt= "Auto Icon" /><span>Auto</span></a></li>
+						<li><a href= "#"><img src= "images/Neptune.gif" alt= "Fantasy Icon" /><span>Fantasy</span></a></li>
+						<li><a href= "#"><img src= "images/Pluto and Charon.gif" alt= "Screen Icon" /><span>Screen</span></a></li>
+						<li><a href= "#"><img src= "images/Saturn.gif" alt= "Dating Icon" /><span>Dating</span></a></li>
+						<li><a href= "#"><img src= "images/Uranus.gif" alt= "Shopping Icon" /><span>Shopping</span></a></li>
+						<li><a href= "#"><img src= "images/Saturn.gif" alt= "Makers Icon" /><span>Makers</span></a></li>
+						<li><a href= "#"><img src= "images/sports.png" alt= "Parenting Icon" /><span>Parenting</span></a></li>
+						<li><a href= "#"><img src= "images/Giant.gif" alt= "Health Icon" /><span>Health</span></a></li>
+						<li><a href= "#"><img src= "images/Mars.gif" alt= "Style Icon" /><span>Style</span></a></li>
+						<li><a href= "#"><img src= "images/Giant.gif" alt= "Beauty Icon" /><span>Beauty</span></a></li>
+						<li><a href= "#"><img src= "images/Jupiter.gif" alt= "Politics Icon" /><span>Politics</span></a></li>
+						<li><a href= "#"><img src= "images/Mars.gif" alt= "Movies Icon" /><span>Movies</span></a></li>
+						<li><a href= "#"><img src= "images/Saturn.gif" alt= "Travel Icon" /><span>Travel</span></a></li>
+						<li><a href= "#"><img src= "images/sports.png" alt= "Travel Icon" /><span>Tech</span></a></li>
+						<li><a href= "#"><img src= "images/Jupiter.gif" alt= "TV Icon" /><span>TV</span></a></li>
+					</ul>
+				</nav> <!-- leftNav ends -->
+				
+				<div><iframe class= "bigAdvert" width="960px" height= "300px" src="https://www.youtube.com/embed/YE7VzlLtp-4" allowfullscreen></iframe></div>
+				
+				<section id= "mainSection">
+					<nav>
+						<ul>
+							<li><a href= "#">All Stories</a></li>
+							<li><a href= "#">News</a></li>
+							<li><a href= "#">Local</a></li>
+							<li><a href= "#">Entertainment</a></li>
+							<li><a href= "#">Sports</a></li>
+							<li><a href= "#">More</a></li>
+						</ul>
+					</nav>
+					<div id= "videoDiv"> </div>
+					<section id= "myArticles">
+						<article class= "advert">
+							<div class= "advertContent">
+								<header><a>McDonald's cashier shocked after 250 customers in a row 'pay it forward' in her drive-thru line</a></header>
+								<p>A Florida McDonald's cashier was shocked after 250 people paid for the food of the person behind...</p>
+								<footer><span>Business Insider</span></footer>
+							</div>
+							<div class= "advertImg"><img src= "images/sample_photo_00.jpg" /></div>
+						</article>
+						
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_05.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>Is This California Pier the First Victim of El Nino?</a></header>
+								<p>Southern California residents witnessed a foreign substance falling from the sky as rain swept through the region over the last 24 hours. The storm also brought huge waves to the coast which ended up smashing the city of </p>
+								<footer><span>Gizmodo</span></footer>
+							</div>
+						</article>
+						
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_01.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>Kirk Douglas Turns 99 With A Party And A $15 Million Birthday Gift</a></header>
+								<p>EXCLUSIVE:   Spartacus at 99! Kirk Douglas celebrated his 99th birthday on Wednesday at his home in Beverly Hills with wife Anne and  sons Michael, </p>
+								<footer><span>Deadling</span></footer>
+							</div>
+						</article>
+						
+						<article class= "advert">
+							<div class= "advertContent">
+								<header><a>McDonald's cashier shocked after 250 customers in a row 'pay it forward' in her drive-thru line</a></header>
+								<p>A Florida McDonald's cashier was shocked after 250 people paid for the food of the person behind...</p>
+								<footer><span>Business Insider</span></footer>
+							</div>
+								<div class= "advertImg"><iframe width="560" height="315" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe></div>
+						</article>
+						
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_03.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>Why you can't call nuts, avocados, olives, or salmon "healthy"</a></header>
+								<p>Earlier this year, the FDA sent the maker of Kind Bars a stern message. The company, which sells granola bars, among other things...</p>
+								<footer>
+									<span>Washington Post</span>
+									<span class= "showHover">
+										<ul >
+											<li><a>Health</a></li>
+											<li><a>Food</a></li>
+											<li><a>Fish</a></li>
+											<li><a>Nuts</a></li>
+										</ul>
+									</span>
+								</footer>
+							</div>
+						</article>
+						
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_04.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>The 35 Biggest Dogs In The World</a></header>
+								<p>Have you seen the biggest dog in the world? These pups are massively cute and you truly won't believe how big they are!</p>
+								<footer><span>PressRoomVIP</span></footer>
+							</div>
+						
+						</article>
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_03.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>Want to feel really small? Meet UY Scuti, the largest star in the universe</a></header>
+								<p>Looking up at the sky inspires deep moments of introspection and curiosity. It's easy to feel small under a starry night sky...</p>
+								<footer>
+									<span>Digital Trends</span>
+									<span class= "showHover">
+									<ul >
+										<li><a>Universe</a></li>
+										<li><a>NASA</a></li>
+										<li><a>Telescope</a></li>
+									</ul>
+									</span>			
+									</footer>
+							</div>
+						</article>
+						
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_05.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>Mark Zuckerberg Is the Most Excited Diaper Changer Ever -- See the Pic!</a></header>
+								<p>This precious photo deserves all the Facebook likes.</p>
+								<footer>
+									<span>ETonline</span>
+									<span class= "showHover">
+									<ul >
+										<li><a>Celebrities</a></li>
+										<li><a>Mark Zuckerberg</a></li>
+									</ul>
+									</span>
+								</footer>
+							</div>
+						</article>
+						
+						<article class= "advert">
+							<div class= "advertContent">
+								<header><a>How to watch the most spectacular meteor shower of the year tonight</a></header>
+								<p>The last major meteor shower of the year, called the Geminids, is happening tonight, and it's...</p>
+								<footer><span>Business Insider</span></footer>
+							</div>
+								<div class= "advertImg"><iframe width="560" height="315" src="https://www.youtube.com/embed/YE7VzlLtp-4" frameborder="0" allowfullscreen></iframe></div>
+						</article>
+						
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_08.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>ongtime staples of the American diet are in danger of going extinct</a></header>
+								<p>Americans are ditching grocery store staples like cereal, soda, and juice. That's bad news for...</p>
+								<footer>
+									<span>Business Insider</span>
+									<span class= "showHover">
+										<ul>
+											<li><a>Politics</a></li>
+											<li><a>Foreign Policy</a></li>
+											<li><a>Europe</a></li>
+											<li><a>Turkey</a><li>
+										</ul>
+									</span>
+								</footer>
+							</div>
+						</article>
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_06.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>Is This Why the Average American Should Take Social Security at 62?</a></header>
+								<p>Declining health in retirement may trump the allure of higher payouts tied to delaying Social Security income.</p>
+								<footer><span>Motley Fool</span></footer>
+							</div>
+						</article>
+						<article class= "news">
+							<div class= "newsImg"><img src= "images/sample_photo_08.jpg" /></div>
+							<div class= "newsContent">
+								<header><a>Shilpa Shetty And Raj Kundra Attend Sheroes Summit (10 photos)</a></header>
+								<p>Bollywood actress Shilpa Shetty attended the Sheroes summit held recently with her husband Raj Kundra. Shilpa spoke about the heroic homemakers around the globe and praised their dedication towards building...</p>
+								<footer>
+									<span>Business of Cinema</span>
+									<span class= "showHover">
+										<ul >
+											<li><a>Celebrities</a></li>
+											<li><a>Summit</a></li>
+											<li><a>Shilpa</a></li>
+											<li><a>Bollywood</a></li>
+										</ul>
+									</span>
+									</footer>
+							</div>
+						</article>
+						<article class= "advert">
+							<div class= "advertContent">
+								<header><a>McDonald's cashier shocked after 250 customers in a row 'pay it forward' in her drive-thru line</a></header>
+								<p>A Florida McDonald's cashier was shocked after 250 people paid for the food of the person behind...</p>
+								<footer><span>Business Insider</span></footer>
+							</div>
+								<div class= "advertImg"><img src= "images/sample_photo_00.jpg" /></div>
+						</article>
+						
+						<span class= "clear"></span>
+					</section>
+				</section> <!-- mainSection ends -->
+				
+				<aside>
+					<section id= "trendHolidaySect">
+						<header>
+							<ul>
+								<li><a href= "#trendDiv"><span>Trending Now </span></a></li>
+								<li><a href= "#holidaySrchDiv"><span> Holiday Searches</span></a></li>
+<!--								<li><a href= "#"><img id= "holidayImg" src= "images/sports.png" /><span>Holiday Searches></span></a></li> -->  	
+							</ul>
+						</header>		
+						<article>			
+							<div class= "displayArea" id= "trendDiv">
+									<ol class= "leftDiv">
+										<li><a href= "#"><span>Kirsren Dunst</span></a></li>
+										<li><a href= "#"><span>Nancy Sinatra</span></a></li>
+										<li><a href= "#"><span>Olivia Munn</span></a></li>
+										<li><a href= "#"><span>Peta Murgatroyd</span></a></li>
+										<li><a href= "#"><span>Kendall Jenner</span></a></li>
+									</ol>
+									<ol class= "rightDiv" start= "6">
+										<li><a href= "#"><span>Samsung TVs</span></a></li>
+										<li><a href= "#"><span>Lindsey Vonn</span></a></li>
+										<li><a href= "#"><span>Quit smoking</span></a></li>
+										<li><a href= "#"><span>Evaa Longoria</span></a></li>
+										<li><a href= "#"><span>kia Optima</span></a></li>
+									</ol>
+							</div>
+							<div class= "displayArea" id= "holidaySrchDiv">
+									<ol class= "leftDiv">
+										<li><a href= "#"><span>Holiday cards</span></a></li>
+										<li><a href= "#"><span>Samsung kids' tablet</span></a></li>
+										<li><a href= "#"><span>Moleskine notebooks</span></a></li>
+										<li><a href= "#"><span>Dumbbell sets</span></a></li>
+										<li><a href= "#"><span>Men's scarves</span></a></li>
+									</ol>
+									<ol class= "rightDiv" start= "6">	
+										<li><a href= "#"><span>Tiffany lamps</span></a></li>
+										<li><a href= "#"><span>Nail art suppies</span></a></li>
+										<li><a href= "#"><span>Avengers toys</span></a></li>
+										<li><a href= "#"><span>Weekend getaway</span></a></li>
+										<li><a href= "#"><span>Hunter boots</span></a></li>
+									</ol>
+							</div>
+						</article>
+					</section>
+					
+				</aside>
+			</div> <!-- mainContentArea ends -->
+		</div> <!-- Container div ends -->
+	</body>
+</html>
+	
+	

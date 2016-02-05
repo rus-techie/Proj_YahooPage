@@ -1,0 +1,124 @@
+body, h1, h2, h3, nav, header, a, p, section, aside, article, li, ul, ol, footer, img, button, div, #container{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Helvetica Neue",Helvetica,Arial;
+	font-size: 13px;
+	line-height: 16.25px;
+	font-weight: 400;
+	color: black;
+}
+.clear{line-height:0px; clear: both;}
+
+
+/*Change to borderbox */
+body{ box-sizing: border-box; -moz-box-sizing: border-box; width: 1278px; height: 100%; background-color: #FAFAFC;}
+
+#container{ box-sizing: border-box;  -moz-box-sizing: border-box; width: 1278px; height: 100%;}
+div, header, nav, section, article{box-sizing: border-box;  -moz-box-sizing: border-box;}
+
+
+/* Top navigation bar */
+#topNavs{position: fixed; box-sizing: borderbox; width: 1278px;}
+
+#topNavBar{background-color: #2d1152; height: 22px; padding: 2px;}
+#topNavBar li{display: inline-block; text-decoration: none;}
+#topNavBar a span{ color: #FFF; text-decoration: none; padding: 0px 12px 2px 12px;}
+#topNavBar a:hover{ color: #FFF; text-decoration: underline; text-decoration-style: solid;}
+#topLeftLinks{ float: left; width: 95%;}
+#topRightLinks{ display: inline-block; width: 5%;}
+#topNavBar a img{ width: 15px; height: 15px; padding-left: 10px;}
+
+/* Nav bottom border */
+.shadow {/*
+    -webkit-box-shadow: 0px 10px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 10px 5px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 10px 5px rgba(50, 50, 50, 0.75);
+      box-shadow: 0 0 10px rgba(0,0,0,0.4); */
+      box-shadow: 0px 2px 9px 0px #500095;
+}
+
+/* Page header: search area with user links */
+#mainHeader{ height: 86px; box-sizing: border-box;  -moz-box-sizing: border-box; padding: 23px 70px; background-color: #FAFAFC; width: 1278px;}
+
+#mainHeaderDiv{ height: 36px; width: 1138px;}
+#logoDiv{width: 120px; float: left; margin-right: 50px;}
+#logoImg{height: 40px; width: 120px;}
+#searchBar{width: 605px; display: inline-block;}
+#srchBox{box-sizing: border-box;  -moz-box-sizing: border-box; height: 36px; width: 450px; border-color: #3372E0; border-radius: 2px; border-width: 1px;} 
+#submitButton{width: 110px; color: white; border-color: #5F5F5F; background-color: #3372E0; border-radius: 4px; font-size: 15px; height: 35px; }
+#myYahooDiv{width: 220px; display: inline-block; height: 36px; margin-left: 130px;}
+#myYahooDiv ul{list-style-type: none;}
+#myYahooDiv li{ display: inline-block; text-decoration: none;}
+#myYahooDiv img{ width: 20px; height: 15px; padding: 5px 2px 0px 5px;}
+#myYahooDiv a{ color: #1E2683; text-decoration: none;}
+#myYahooDiv a:hover{ text-decoration: underline;}
+#myYahooDiv a span{ padding: 2px; vertical-align: bottom;}
+
+
+/* Page Content */
+#mainContentArea{position: absolute; box-sizing: border-box;  -moz-box-sizing: border-box; top: 110px; width: 1278px; height: 2000px; background-color: #FAFAFC; z-index: -1; padding: 0px 70px;}
+
+/* Left Navigation */
+#leftNav{box-sizing: border-box;  -moz-box-sizing: border-box; width: 140px; float: left; }
+#leftNav ul{list-style-type: none; text-decoration: none;}
+#leftNav li{padding: 5px; }
+#leftNav img{ width: 20px; height: 20px; padding: 0px 5px; }
+#leftNav a{text-decoration: none; font-size: 15px; color: #1D1DA3; line-height: 18.75px; font-weight: 300; }
+#leftNav a span{vertical-align: top;}
+#leftNav a:hover{ text-decoration: underline; -moz-text-decoration-color: #1D1DA3;}
+
+/*Big Advertisement */
+.bigAdvert{width: 977px; height: 250px; margin: 0px 0px 10px 10px; border: 1px solid black; }
+
+/* Articles area */
+#mainSection{ box-sizing: border-box; -moz-box-sizing: border-box; width: 610px; height: 1000px; padding: 0px; margin: 0px 10px 0px 10px; float: left; display: inline-block;}
+#mainSection nav{background-color: #500095; padding: 0px; width: 100%; box-sizing: border-box;  moz-box-sizing: border-box;}
+#mainSection nav ul{ }
+#mainSection nav li{ display: inline-block; padding: 5px; }
+#mainSection nav a{ text-decoration: none; color: #B68EE7; font-size: 15px; font-weight: 300;}
+#mainSection nav a:hover, a:active{ color: white;} 
+
+.news{width: 100%; height: 102px;  background-color: #fff; border-bottom: 1px solid #e2e2e6; border-left: 1px solid #e2e2e6; border-right: 1px solid #e2e2e6;}
+.newsImg{width: 100px; height: 100px; padding: 10px; float: left;}
+.newsImg img{width: 80px; height: 80px;}
+.newsContent{ width: 490px; height: 100px; float: left; padding: 8px 20px 10px 0px; overflow: hidden;}
+.newsContent header a{ color: #324FE1; font-size: 15px; font-weight: bold;}
+.newsContent header a:hover{text-decoration: underline;}
+.newsContent p{font-size: 13px; color: #5F5F5F; font-weight: 400; margin-top: 3px; }
+/*Footer */
+.newsContent footer span{float: left; color: #1E7D8E; margin-right: 20px; font-size: 11px; font-weight: 400;}
+.showHover{ display: none;}
+span:hover + span.showHover{display: block;}
+.showHover li{display: inline-block; padding: 0px 5px; list-style-type: none; }
+.showHover a{color: #324FE1; font-size: 11px; font-weight: 400; }
+
+
+.advert{width: 100%; height: 162px;  background-color: #FAFAFC; border-bottom: 1px solid #e2e2e6; border-left: 1px solid #e2e2e6; border-right: 1px solid #e2e2e6;}
+.advertContent{ width: 50%; height: 100%; float: left; padding: 8px 20px 10px 10px;}
+.advertContent header a{ color: #324FE1; font-size: 18px; font-weight: bold; word-wrap: break-word;}
+.advertContent header a:hover{text-decoration: underline;}
+.advertContent p{font-size: 13px; color: #5F5F5F; font-weight: 400; margin-top: 3px;}
+.advertContent footer span{color: #1E7D8E; font-size: 11px; font-weight: 400;}
+.advertImg{width: 50%; height: 100%; padding: 0px; display: inline-block;}
+.advertImg img{width: 100%; height: 100%;}
+.advertImg iframe{ width: 100%; height: 100%;}
+
+
+/* Aside pane */
+aside{ width: 350px; height: 1200px; box-sizing: border-box;  -moz-box-sizing: border-box; margin: 0px 0px 0px 10px; padding: 0px; float: left; display: inline-block;}
+
+#trendHolidaySect{ width: 100%; height: 170px; border: 1px solid #e2e2e6; margin: 0px}
+#trendHolidaySect header{ height: 40px; width: 100%; border-bottom: 1px solid #e2e2e6; border-top: 1px solid #e2e2e6; padding: 3px; vertical-align: top;}
+#trendHolidaySect header li{float: left; padding: 5px; list-style-type: none; text-align: left; width: 160px; }
+#trendHolidaySect a{text-decoration: none; font-size: 18px; font-weight:300 }
+#trendHolidaySect #holidayImg{ width: 20px; height: 20px;}
+.displayArea li{ font-size: 13px; color: #324FE1; font-weight: bold; margin-left: 15px; padding-bottom: 5px;}
+.displayArea a span{ font-size: 13px; color: #324FE1; font-weight: bold; margin-left: 5px;}
+.displayArea{padding: 10px 10px;}
+.leftDiv{ text-align: left; float: left; line-height: 2; overflow: hidden; padding-left: 5px; width: 160px;}
+.rightDiv{ text-align: left; display: inline-block; padding-left: 5px; margin-left: 1px; width: 150px; }
+#trendHolidaySect div{display: none;}
+#trendHolidaySect div:target{display: block; transition: all .5s ease-in-out;}
+
+
+
